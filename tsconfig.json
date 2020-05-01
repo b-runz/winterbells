@@ -4,7 +4,14 @@
       "target": "es5",
       "outDir": "lib",
       "sourceMap": true,
-      "declaration": true,
-      "strict": false
+      "declaration": false,
+      "moduleResolution": "node",
+      "typeRoots": [
+        "node_modules/@types"
+      ],
+      "noImplicitAny": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "baseUrl": "./src/"
     }
   }

@@ -14,6 +14,7 @@
   "author": "Bjarke Runz Jensen",
   "license": "GNU GPL v3",
   "devDependencies": {
+    "@types/pixi.js": "4.7.2",
     "@types/lodash": "^4.14.150",
     "@types/webpack-env": "^1.15.2",
     "awesome-typescript-loader": "^5.0.0",
